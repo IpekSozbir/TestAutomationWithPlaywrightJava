@@ -11,6 +11,9 @@ import org.junit.jupiter.api.TestInfo;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import java.io.FileOutputStream;
+import java.util.Properties;
+
 
 /**
  * ==============================================================================
@@ -132,6 +135,9 @@ public class BaseTest {
             logger.error("Ekran görüntüsü alınırken hata oluştu: " + e.getMessage());
         }
 
+        // Allure için ortam dosyasını oluştur
+        writeAllureEnvironment();
+
         // Tarayıcı ve Playwright kaynaklarını güvenli bir şekilde kapatır.
         // Kapatma Sırası: Page -> Context -> Browser -> Playwright (En içten en dışa)
         if (context != null) context.close(); // Context kapatıldı - BaseTest Version 2
@@ -142,6 +148,49 @@ public class BaseTest {
         extent.flush();
         logger.info("Test tamamlandı, kaynaklar kapatıldı.");
     }
+    /**
+     * [V3 - Allure Environment Configuration]
+     * Allure raporunda 'Environment' panelini özelleştirmek için kullanılır.
+     * Bu metot, çalışma zamanı (runtime) bilgilerini environment.properties dosyasına yazar.
+     */
+    public void writeAllureEnvironment() {
+        Properties properties = new Properties();
+        properties.setProperty("Operating System", System.getProperty("os.name"));
+        properties.setProperty("QA Engineer", "Ipek Sozbir");
+        properties.setProperty("Project", "Playwright Java Automation");
+        properties.setProperty("Browser", "Chromium");
+
+        try {
+            // Rapor sonuçlarının depolanacağı dizin (allure-results)
+            java.nio.file.Path allureResultsPath = java.nio.file.Paths.get("allure-results");
+
+            // I/O Hatalarını önlemek için dizin kontrolü ve otomatik oluşturma (Folder Auto-Creation)
+            if (!java.nio.file.Files.exists(allureResultsPath)) {
+                java.nio.file.Files.createDirectories(allureResultsPath);
+            }
+
+            String path = "allure-results/environment.properties";
+            try (FileOutputStream fos = new FileOutputStream(path)) {
+                properties.store(fos, "Allure Environment Properties");
+            }
+        } catch (Exception e) {
+            logger.error("Allure environment.properties dosyası oluşturulamadı: " + e.getMessage());
+        }
+    }
+
+    /*
+     * ARCHITECTURAL NOTE: REPORTING STRATEGY
+     * --------------------------------------------------------------------------
+     * Standart Maven yapısında 'target/allure-results' dizini kullanılır ve 'mvn clean' ile silinir.
+     * Ancak bu projede, Extent Reports ve Allure Reports entegrasyonunun kalıcılığını (persistence)
+     * sağlamak ve izolasyonu yönetmek adına 'allure-results' dizini proje kök dizininde (root) tutulmaktadır.
+     *
+     * Bu sayede:
+     * 1. 'allure serve' komutu ek parametre gerektirmeden varsayılan dizinden rapor üretebilir.
+     * 2. Yerel geliştirme ortamında 'clean' döngülerinden rapor verileri etkilenmez.
+     * 3. Birden fazla raporlama aracının (Extent + Allure) çıktıları düzenli bir hiyerarşide saklanır.
+     * --------------------------------------------------------------------------
+     */
 
     // Allure Attachment: Alınan byte dizisi halindeki ekran görüntüsünü Allure raporuna bağlar.
     @Attachment(value = "{name}", type = "image/png")
