@@ -38,3 +38,5 @@ Her sınıf belirli bir Playwright özelliğini veya otomasyon tekniğini derinl
 | **IntelliJ IDEA** | Geliştirme ortamı (IDE) |
 
 ---
+
+# 📁 Proje Yapısı
