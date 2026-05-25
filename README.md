@@ -40,3 +40,67 @@ Her sınıf belirli bir Playwright özelliğini veya otomasyon tekniğini derinl
 ---
 
 # 📁 Proje Yapısı
+
+```bash
+TestAutomationWithPlaywrightJava/
+├── .github/
+│   └── workflows/
+│       └── playwright-ci.yml           # GitHub Actions CI/CD pipeline
+
+├── src/
+│   └── test/
+│       └── java/
+
+│           ├── testInputAndOutput/     # Screenshot, PDF ve video çıktıları
+│           │   ├── P12.png
+│           │   ├── P12_1.png
+│           │   ├── P12_TestOtomasyonuFullPage.pdf
+│           │   └── logo.png
+
+│           ├── utilities/              # Yardımcı framework sınıfları
+│           │   ├── BaseTest.java
+│           │   └── ExtentManager.java
+
+│           ├── C01_AutoClosure.java
+│           ├── C02_ManualClosure.java
+│           ├── C03_ScreenSize.java
+│           ├── C04_NavigationMethods.java
+│           ├── C05_ElementMethods.java
+│           ├── C06_ElementMethods.java
+│           ├── C07_PageCheckBox.java
+│           ├── C08_PageCheckBox_Uncheck.java
+│           ├── C09_PageSelect.java
+│           ├── C10_TextContent_innerText_innerHTML.java
+│           ├── C11_ElementBilgisiAlma_isVisible_isChecked.java
+│           ├── C12_Screenshot_Pdf.java
+│           ├── C13_BuiltInLocators.java
+│           ├── C14_OtherLocators.java
+│           ├── C15_PageAssertions.java
+│           ├── C16_LocatorAssertions.java
+│           ├── C17_Iframe.java
+│           ├── C18_Actions.java
+│           ├── C19_DragAndDrop.java
+│           ├── C20_Dropdown.java
+│           ├── C21_BaseTestKullanimi.java
+│           ├── C22_BaseTestKullanimi_ExtentReport.java
+│           ├── C23_BaseTestKullanimi_AllureReport.java
+│           ├── C24_SingleFileUpload.java
+│           ├── C25_MultipleFileUpload.java
+│           ├── C26_MultipleWindow.java
+│           ├── C27_ScreenRecord.java
+│           ├── C28_ScreenRecord_AllureReportV2.java
+│           ├── C29_AutomationExerciseSignUp.java
+│           ├── C30_AutomationExerciseSignUp_AllureReportV2.java
+│           ├── C31_Scroll_AllureReportV1.java
+│           ├── C32_Scroll_AllureReportV2.java
+│           ├── C33_WaitStrategies_AllureReportV1.java
+│           ├── C34_WaitStrategies_AllureReportV2.java
+│           └── C35_LocatorMasterNotes.java
+
+├── allure-results/
+├── pom.xml
+├── .gitignore
+└── README.md
+```
+
+---
