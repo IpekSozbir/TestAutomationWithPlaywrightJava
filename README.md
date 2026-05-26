@@ -104,3 +104,5 @@ TestAutomationWithPlaywrightJava/
 ```
 
 ---
+
+# 📂 Müfredat ve Sınıf Yapısı (C01 - C35)
