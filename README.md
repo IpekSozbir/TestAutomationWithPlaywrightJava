@@ -120,3 +120,14 @@ Proje, 35 farklı sınıfta Playwright otomasyonunun kritik konularını kapsama
 ---
 
 # 🎯 Kapsanan Otomasyon Konuları
+
+## 🗓️ Temel Seviye Etkileşimler
+
+| Konu | Açıklama |
+|----------|----------|
+| Navigation | Sayfa geçişleri, refresh, back-forward işlemleri |
+| Locators | CSS, XPath ve Playwright built-in locator kullanımları |
+| Assertions | Page ve Locator doğrulamaları |
+| Element Actions | Click, fill, hover, select işlemleri |
+
+---
