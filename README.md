@@ -131,3 +131,5 @@ Proje, 35 farklı sınıfta Playwright otomasyonunun kritik konularını kapsama
 | Element Actions | Click, fill, hover, select işlemleri |
 
 ---
+
+## 🗓️ İleri Seviye UI İşlemleri
