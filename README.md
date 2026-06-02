@@ -133,3 +133,13 @@ Proje, 35 farklı sınıfta Playwright otomasyonunun kritik konularını kapsama
 ---
 
 ## 🗓️ İleri Seviye UI İşlemleri
+
+| Konu | Açıklama |
+|----------|----------|
+| Iframe & Windows | Çoklu sekme ve iframe yönetimi |
+| Actions | Drag & Drop, keyboard ve mouse aksiyonları |
+| File Operations | Tekli/çoklu dosya yükleme işlemleri |
+| Wait Strategies | Auto-waiting, explicit wait, dynamic waits |
+| Scroll Operations | Sayfa scroll stratejileri |
+
+---
