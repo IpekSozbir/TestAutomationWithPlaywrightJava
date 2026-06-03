@@ -143,3 +143,5 @@ Proje, 35 farklı sınıfta Playwright otomasyonunun kritik konularını kapsama
 | Scroll Operations | Sayfa scroll stratejileri |
 
 ---
+
+## 🗓️ Raporlama ve Medya Yönetimi
