@@ -155,3 +155,7 @@ Proje, 35 farklı sınıfta Playwright otomasyonunun kritik konularını kapsama
 | PDF Generation | Sayfa çıktılarının PDF olarak alınması |
 
 ---
+
+# 🏗️ Mimari ve Evrimsel Gelişim (Evolutionary Design)
+
+Bu projeyi farklılaştıran temel noktalardan biri; framework mimarisinin zaman içinde evrimsel olarak geliştirilmiş olmasıdır.
