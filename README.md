@@ -159,3 +159,10 @@ Proje, 35 farklı sınıfta Playwright otomasyonunun kritik konularını kapsama
 # 🏗️ Mimari ve Evrimsel Gelişim (Evolutionary Design)
 
 Bu projeyi farklılaştıran temel noktalardan biri; framework mimarisinin zaman içinde evrimsel olarak geliştirilmiş olmasıdır.
+
+## 1. BaseTest Stratejisi
+
+### V1 (Başlangıç Yaklaşımı)
+- Toolkit ile ekran boyutu yönetimi
+- Temel browser launch işlemleri
+- Basit setup/teardown yapısı
