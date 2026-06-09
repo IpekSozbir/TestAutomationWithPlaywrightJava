@@ -166,3 +166,9 @@ Bu projeyi farklılaştıran temel noktalardan biri; framework mimarisinin zaman
 - Toolkit ile ekran boyutu yönetimi
 - Temel browser launch işlemleri
 - Basit setup/teardown yapısı
+
+### V2 (Profesyonel Yaklaşım)
+- BrowserContext izolasyonu
+- `--start-maximized` desteği
+- `setViewportSize(null)` kullanımı
+- Daha stabil ekran ölçekleme sistemi
