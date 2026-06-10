@@ -172,3 +172,10 @@ Bu projeyi farklılaştıran temel noktalardan biri; framework mimarisinin zaman
 - `--start-maximized` desteği
 - `setViewportSize(null)` kullanımı
 - Daha stabil ekran ölçekleme sistemi
+
+### CI/CD Uyumlu Mimari
+- Lokal ortamda headed mode
+- GitHub Actions ortamında headless mode
+- Ortama göre otomatik browser stratejisi
+
+---
