@@ -183,3 +183,7 @@ Bu projeyi farklılaştıran temel noktalardan biri; framework mimarisinin zaman
 ## 2. Hibrit Raporlama Sistemi
 
 Proje aynı anda birden fazla raporlama sistemini desteklemektedir:
+
+### Allure Report V1
+- @Step anotasyonları
+- Klasik step tabanlı raporlama
