@@ -192,3 +192,8 @@ Proje aynı anda birden fazla raporlama sistemini desteklemektedir:
 - `Allure.step()` lambda yaklaşımı
 - Nested reporting yapısı
 - Daha okunabilir modern raporlama sistemi
+
+### Extent Reports
+- HTML dashboard yapısı
+- Görsel raporlama ekranı
+- Test summary sistemi
