@@ -207,3 +207,14 @@ Proje aynı anda birden fazla raporlama sistemini desteklemektedir:
 # 🔄 CI/CD Süreci (GitHub Actions)
 
 Proje GitHub Actions ile otomatik test pipeline yapısına sahiptir.
+
+CI/CD sürecinde:
+
+- Ubuntu ortamında Java kurulumu yapılır
+- Maven cache optimize edilir
+- Chromium browser otomatik yüklenir
+- Tüm Playwright testleri çalıştırılır
+- Allure raporları otomatik oluşturulur
+- GitHub Pages üzerinden canlı rapor yayınlanır
+
+---
