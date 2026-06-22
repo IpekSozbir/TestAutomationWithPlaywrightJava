@@ -218,3 +218,6 @@ CI/CD sürecinde:
 - GitHub Pages üzerinden canlı rapor yayınlanır
 
 ---
+# 📊 Test Otomasyon Raporu
+
+Son test sonuçlarını görmek için aşağıdaki Allure raporunu inceleyebilirsiniz:
