@@ -225,3 +225,5 @@ Son test sonuçlarını görmek için aşağıdaki Allure raporunu inceleyebilir
 [![Allure Report](https://img.shields.io/badge/Allure%20Report-Live-green?style=for-the-badge&logo=allure)](https://ipeksozbir.github.io/TestAutomationWithPlaywrightJava/allure-history/#/)
 
 ---
+
+# ▶️ Projeyi Çalıştırma Adımları
