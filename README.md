@@ -227,3 +227,5 @@ Son test sonuçlarını görmek için aşağıdaki Allure raporunu inceleyebilir
 ---
 
 # ▶️ Projeyi Çalıştırma Adımları
+
+## Ön Gereksinimler
