@@ -229,3 +229,8 @@ Son test sonuçlarını görmek için aşağıdaki Allure raporunu inceleyebilir
 # ▶️ Projeyi Çalıştırma Adımları
 
 ## Ön Gereksinimler
+
+- Java JDK 17 veya üzeri
+- Maven kurulu olmalıdır
+
+---
