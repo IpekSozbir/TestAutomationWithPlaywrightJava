@@ -236,3 +236,9 @@ Son test sonuçlarını görmek için aşağıdaki Allure raporunu inceleyebilir
 ---
 
 ## Kurulum
+
+Repository'i klonlayın:
+
+```bash
+git clone https://github.com/IpekSozbir/TestAutomationWithPlaywrightJava.git
+```
