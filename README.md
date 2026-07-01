@@ -242,3 +242,11 @@ Repository'i klonlayın:
 ```bash
 git clone https://github.com/IpekSozbir/TestAutomationWithPlaywrightJava.git
 ```
+
+Bağımlılıkları yükleyin:
+
+```bash
+mvn clean install
+```
+
+---
