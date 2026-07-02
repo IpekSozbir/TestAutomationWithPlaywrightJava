@@ -248,5 +248,6 @@ Bağımlılıkları yükleyin:
 ```bash
 mvn clean install
 ```
-
 ---
+
+## Testleri Çalıştırma
