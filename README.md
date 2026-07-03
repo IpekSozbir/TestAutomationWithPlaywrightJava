@@ -251,3 +251,9 @@ mvn clean install
 ---
 
 ## Testleri Çalıştırma
+
+Tüm testleri çalıştırmak için:
+
+```bash
+mvn test
+```
