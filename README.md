@@ -257,3 +257,5 @@ Tüm testleri çalıştırmak için:
 ```bash
 mvn test
 ```
+
+Belirli bir test sınıfını çalıştırmak için:
