@@ -273,3 +273,9 @@ allure serve allure-results
 ```
 
 ---
+
+# 📌 Projenin Sağladıkları
+
+- Modern Playwright otomasyon yaklaşımı
+- Profesyonel framework mimarisi
+- Reusable BaseTest yapısı
