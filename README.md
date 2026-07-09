@@ -267,3 +267,9 @@ mvn test -Dtest=C30_AutomationExerciseSignUp_AllureReportV2
 ---
 
 ## Allure Report Görüntüleme
+
+```bash
+allure serve allure-results
+```
+
+---
