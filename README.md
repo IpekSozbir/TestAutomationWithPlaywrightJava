@@ -282,3 +282,6 @@ allure serve allure-results
 - Hybrid reporting architecture
 - CI/CD entegrasyonu
 - Gelişmiş locator stratejileri
+- Dynamic wait management
+- Gerçek projeye yakın otomasyon yaklaşımı
+- Video recording ve medya yönetimi
