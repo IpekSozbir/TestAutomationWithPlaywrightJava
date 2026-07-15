@@ -285,3 +285,8 @@ allure serve allure-results
 - Dynamic wait management
 - Gerçek projeye yakın otomasyon yaklaşımı
 - Video recording ve medya yönetimi
+- Scroll ve rendering stratejileri
+- Profesyonel test raporlama sistemi
+
+
+---
