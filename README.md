@@ -290,3 +290,5 @@ allure serve allure-results
 
 
 ---
+
+# 📝 Lisans
