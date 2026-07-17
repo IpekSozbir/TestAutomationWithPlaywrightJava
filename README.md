@@ -292,3 +292,7 @@ allure serve allure-results
 ---
 
 # 📝 Lisans
+
+Bu proje kişisel eğitim ve portföy amaçlıdır.
+
+Java dilinde Playwright test otomasyonu üzerine edindiğim bilgileri uygulamalı olarak geliştirdiğim kapsamlı bir çalışmadır.
