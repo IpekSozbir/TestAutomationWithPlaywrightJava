@@ -301,3 +301,5 @@ Java dilinde Playwright test otomasyonu üzerine edindiğim bilgileri uygulamal�
 
 🌐 TestAutomationWithPlaywrightJava Project
 
+This repository is a comprehensive modern web test automation project developed using Java + Playwright. The project encompasses a wide range of automation scenarios, starting from basic browser interactions up to advanced UI automation, hybrid reporting systems, screen recording, dynamic wait strategies, CI/CD integration, and professional test architectures.
+
