@@ -318,3 +318,6 @@ The tests are structured progressively to teach the modern automation approach o
 - Running Playwright tests in CI/CD pipelines
 - Creating real test architectures and reusable structures
 - Learning sustainable framework logic with the BaseTest approach
+
+# 🛠️ Technologies and Tools Used
+
