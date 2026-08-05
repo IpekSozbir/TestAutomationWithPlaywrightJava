@@ -326,5 +326,6 @@ The tests are structured progressively to teach the modern automation approach o
 | **Java 17** | Test automation language  |
 | **Playwright 1.49.0** | Modern web automation framework |
 | **JUnit 5** | Test runner and assertion structure |
-
-
+| **Allure Report** | Advanced test reporting system  |
+| **Extent Reports** | HTML-based visual reporting |
+| **JavaFaker** | Dynamic test data generation |
