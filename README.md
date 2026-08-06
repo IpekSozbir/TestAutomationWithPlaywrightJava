@@ -329,3 +329,7 @@ The tests are structured progressively to teach the modern automation approach o
 | **Allure Report** | Advanced test reporting system  |
 | **Extent Reports** | HTML-based visual reporting |
 | **JavaFaker** | Dynamic test data generation |
+| **SLF4J & Logger** | Logging system |
+| **Maven** | Dependency and build management |
+
+
