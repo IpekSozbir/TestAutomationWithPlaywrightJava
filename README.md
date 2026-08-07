@@ -331,5 +331,6 @@ The tests are structured progressively to teach the modern automation approach o
 | **JavaFaker** | Dynamic test data generation |
 | **SLF4J & Logger** | Logging system |
 | **Maven** | Dependency and build management |
-
+| **GitHub Actions** | CI/CD automation pipeline |
+| **IntelliJ IDEA** | Integrated development environment (IDE) |
 
