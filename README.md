@@ -334,3 +334,8 @@ The tests are structured progressively to teach the modern automation approach o
 | **GitHub Actions** | CI/CD automation pipeline |
 | **IntelliJ IDEA** | Integrated development environment (IDE) |
 
+---
+
+# 📁 Project Structure
+
+
