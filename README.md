@@ -338,4 +338,9 @@ The tests are structured progressively to teach the modern automation approach o
 
 # 📁 Project Structure
 
+TestAutomationWithPlaywrightJava/
+├── .github/workflows/
+│   └── playwright-ci.yml      # CI/CD GitHub Actions configuration
+
+
 
