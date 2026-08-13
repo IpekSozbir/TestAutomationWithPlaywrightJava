@@ -339,12 +339,20 @@ The tests are structured progressively to teach the modern automation approach o
 # 📁 Project Structure
 
 TestAutomationWithPlaywrightJava/
-├── .github/workflows/
-│   └── playwright-ci.yml      # CI/CD GitHub Actions configuration
-├── src/test/java/
-│   ├── testInputAndOutput/    # PDFs, screenshots, and logs generated during test execution
-│   │   ├── P12_testOtomasyonuFullPage.pdf
-│   │   ├── P12_testOtomasyonuFullPage.pdf
+├── .github/
+│   └── workflows/
+│       └── playwright-ci.yml           # CI/CD GitHub Actions configuration
+
+├── src/
+│   └── test/
+│       └── java/
+
+│           ├── testInputAndOutput/     # PDFs, screenshots, and logs generated during test execution
+│           │   ├── P12.png
+│           │   ├── P12_1.png
+│           │   ├── P12_TestOtomasyonuFullPage.pdf
+│           │   └── logo.png
+
 
 
 
