@@ -353,6 +353,11 @@ TestAutomationWithPlaywrightJava/
 │           │   ├── P12_TestOtomasyonuFullPage.pdf
 │           │   └── logo.png
 
+│           ├── utilities/              # Helper / Utility classes
+│           │   ├── BaseTest.java       # Pre-test and post-test setup/teardown configurations
+│           │   └── ExtentManager.java  # Reporting manager
+
+
 
 
 
