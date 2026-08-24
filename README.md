@@ -338,6 +338,7 @@ The tests are structured progressively to teach the modern automation approach o
 
 # 📁 Project Structure
 
+```bash
 TestAutomationWithPlaywrightJava/
 ├── .github/
 │   └── workflows/
@@ -366,6 +367,9 @@ TestAutomationWithPlaywrightJava/
 │           ├── C07_PageCheckBox.java  # Checkbox interactions
 │           ├── C08_PageCheckBox_Uncheck.java  # Checkbox unchecking operations
 │           ├── C09_PageSelect.java  # Select dropdown operations
+│           ├── C10_TextContent_innerText_innerHTML.java # Text content extraction operations
+│           ├── C11_ElementBilgisiAlma_isVisible_isChecked.java # Element state verification operations
+
 
 
 
