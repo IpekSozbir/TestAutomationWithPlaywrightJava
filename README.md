@@ -395,4 +395,5 @@ TestAutomationWithPlaywrightJava/
 │           └── C35_LocatorMasterNotes.java # Comprehensive locator master notes
 
 ├── allure-results/
+├── pom.xml
 
