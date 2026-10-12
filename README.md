@@ -397,3 +397,4 @@ TestAutomationWithPlaywrightJava/
 ├── allure-results/
 ├── pom.xml
 ├── .gitignore
+└── README.md
