@@ -401,7 +401,9 @@ TestAutomationWithPlaywrightJava/
 ```
 ---
 
-# 📂 Curriculum and Class Structure (C01 - C35)
+# 📂 Curriculum and Class Structure (C01 - C35) 
 
 The project covers critical Playwright automation topics across 35 different classes:
+
+| Level | Topics | Example Classes |
 
