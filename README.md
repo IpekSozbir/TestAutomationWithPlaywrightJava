@@ -413,4 +413,6 @@ The project covers critical Playwright automation topics across 35 different cla
 | *Reporting & Media* | Allure, Extent Reports, screenshots, video recording | C22 - C32 |
 | *Framework Strategies* | Wait strategies, BaseTest structure, scrolling techniques | C31 - C35 |
 
+---
+
 
