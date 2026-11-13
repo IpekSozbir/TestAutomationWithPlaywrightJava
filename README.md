@@ -422,4 +422,5 @@ The project covers critical Playwright automation topics across 35 different cla
 |----------|----------|
 | Navigation | Page transitions, refresh, back and forward operations |
 | Locators | CSS, XPath, and Playwright built-in locator usage |
+| Assertions | Page and Locator assertions |
 
