@@ -425,3 +425,6 @@ The project covers critical Playwright automation topics across 35 different cla
 | Assertions | Page and Locator assertions |
 | Element Actions | Click, fill, hover, and select operations |
 
+---
+
+
